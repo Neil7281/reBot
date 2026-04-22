@@ -38,7 +38,7 @@ WAYPOINTS = [
     (0.30, -0.15, 0.25, 0.00, 0.50, -0.35, 1.2),
 ]
 
-CMD = ["uv", "run", "python", "example/8_arm_traj_control.py"]
+CMD = ["uv", "run", "python", "../example/8_arm_traj_control.py"]
 
 
 def start_controller() -> subprocess.Popen:
